@@ -1,0 +1,9 @@
+scap
+-Infinity
+-Infinity
+-Infinity
+-Infinity	7.03	0.002
+Gradient
+-Infinity
+improveMethod2
+-Infinity

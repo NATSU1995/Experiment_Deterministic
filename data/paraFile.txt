@@ -1,0 +1,11 @@
+seed:	1150777586907
+density_low:	0.4	density_up:	0.6
+cost_low:	0.0	cost_up:	4.0
+cost_fire_low:	50.0	 cost_fire_up:	100.0
+cost_hire_low:	3.0	 cost_hire_up:	5.0
+cost_hold_low:	2.0	 cost_hold_up:	4.0
+cap_low:	5	 cap_up:	10
+supply_low:	10	 supply_up:	30
+demand_low:	20	 demand_up:	30
+shortage_cost_low:	0.0	 shortage_cost_up:	0.0
+overage_cost_low:	0.0	 overage_cost_up:	0.0

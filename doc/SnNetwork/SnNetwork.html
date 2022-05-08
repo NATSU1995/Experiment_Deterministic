@@ -1,0 +1,398 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><!--JBuilder QuickDoc-->
+<HEAD>
+<TITLE>Class SnNetwork.SnNetwork</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+</HEAD>
+<BODY>
+
+<H2>
+<FONT SIZE="-1">SnNetwork</FONT>
+<BR>Class SnNetwork</H2>
+<DL>
+<DT>public class <B>SnNetwork</B><DT>extends GenericNetwork.GenericNetwork<DT>implements SnNetwork.SnNetworkInterface
+</DL>
+<DL><DD>A class providing all methods needed in network simplex algorithm.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Version:</B><DD>SnNetwork1.0</DD>
+<DT><B>Author:</B><DD>HKUST Transportation & Logistics Lab</DD>
+</DL>
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF"><TD COLSPAN=1><FONT SIZE="+2">
+<B>Constructor Detail</B>
+</FONT></TD></TR></TABLE>
+
+<H3>SnNetwork</H3>
+<PRE>
+public <B>SnNetwork</B>()</PRE>
+<DL><DD>A constructor, initializes the network.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF"><TD COLSPAN=1><FONT SIZE="+2">
+<B>Method Detail</B>
+</FONT></TD></TR></TABLE>
+
+<H3>getFirstNet</H3>
+<PRE>
+public SnNetwork.SnNetInfo <B>getFirstNet</B>()</PRE>
+<DL><DD>Gets the first NetInfo object in the Network.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getLastNet</H3>
+<PRE>
+public SnNetwork.SnNetInfo <B>getLastNet</B>()</PRE>
+<DL><DD>Gets the last NetInfo object in the Network.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getNet</H3>
+<PRE>
+public SnNetwork.SnNetInfo <B>getNet</B>(java.lang.String&nbsp;netKey)</PRE>
+<DL><DD>Gets the NetInfo object using its netKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getNextNetFrom</H3>
+<PRE>
+public SnNetwork.SnNetInfo <B>getNextNetFrom</B>(java.lang.String&nbsp;netKey)</PRE>
+<DL><DD>Gets the NetInfo object next to the net with this netKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getPrevNetFrom</H3>
+<PRE>
+public SnNetwork.SnNetInfo <B>getPrevNetFrom</B>(java.lang.String&nbsp;netKey)</PRE>
+<DL><DD>Gets the NetInfo object previous from the net with this netKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getFirstNodeIn</H3>
+<PRE>
+public SnNetwork.SnNodeInfo <B>getFirstNodeIn</B>(java.lang.String&nbsp;netKey)</PRE>
+<DL><DD>Gets the first NodeInfo object in the net with this netKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getLastNodeIn</H3>
+<PRE>
+public SnNetwork.SnNodeInfo <B>getLastNodeIn</B>(java.lang.String&nbsp;netKey)</PRE>
+<DL><DD>Gets the last NodeInfo object in the net with this netKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getNode</H3>
+<PRE>
+public SnNetwork.SnNodeInfo <B>getNode</B>(java.lang.String&nbsp;nodeKey)</PRE>
+<DL><DD>Gets the NodeInfo object using its nodeKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getNextNodeFrom</H3>
+<PRE>
+public SnNetwork.SnNodeInfo <B>getNextNodeFrom</B>(java.lang.String&nbsp;nodeKey)</PRE>
+<DL><DD>Gets the NodeInfo object next to the node with this nodeKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getPrevNodeFrom</H3>
+<PRE>
+public SnNetwork.SnNodeInfo <B>getPrevNodeFrom</B>(java.lang.String&nbsp;nodeKey)</PRE>
+<DL><DD>Gets the NodeInfo object previous from the node with this nodeKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getFirstArcIn</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getFirstArcIn</B>(java.lang.String&nbsp;netKey)</PRE>
+<DL><DD>Gets the first ArcInfo object in the net with this netKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getLastArcIn</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getLastArcIn</B>(java.lang.String&nbsp;netKey)</PRE>
+<DL><DD>Gets the last ArcInfo object in the net with this netKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getArc</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getArc</B>(java.lang.String&nbsp;arcKey)</PRE>
+<DL><DD>Gets the ArcInfo object using its arcKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getNextArcFrom</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getNextArcFrom</B>(java.lang.String&nbsp;arcKey)</PRE>
+<DL><DD>Gets the ArcInfo object next to the arc with this arcKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getPrevArcFrom</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getPrevArcFrom</B>(java.lang.String&nbsp;arcKey)</PRE>
+<DL><DD>Gets the ArcInfo object previous from the arc with this arcKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getFirstInArcOf</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getFirstInArcOf</B>(java.lang.String&nbsp;nodeKey)</PRE>
+<DL><DD>Gets the first Incoming ArcInfo object of the node with this nodeKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getLastInArcOf</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getLastInArcOf</B>(java.lang.String&nbsp;nodeKey)</PRE>
+<DL><DD>Gets the last Incoming ArcInfo object of the node with this nodeKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getInArc</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getInArc</B>(java.lang.String&nbsp;arcKey)</PRE>
+<DL><DD>Gets the Incoming ArcInfo object using its arcKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getNextInArcFrom</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getNextInArcFrom</B>(java.lang.String&nbsp;arcKey)</PRE>
+<DL><DD>Gets the Incoming ArcInfo object next to the arc with this arcKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getPrevInArcFrom</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getPrevInArcFrom</B>(java.lang.String&nbsp;arcKey)</PRE>
+<DL><DD>Gets the Incoming ArcInfo object previous from the arc with this arcKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getFirstOutArcOf</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getFirstOutArcOf</B>(java.lang.String&nbsp;nodeKey)</PRE>
+<DL><DD>Gets the frist Outgoing ArcInfo object of the node with this nodeKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getLastOutArcOf</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getLastOutArcOf</B>(java.lang.String&nbsp;nodeKey)</PRE>
+<DL><DD>Gets the last Outgoing ArcInfo object of the node with this nodeKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getOutArc</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getOutArc</B>(java.lang.String&nbsp;arcKey)</PRE>
+<DL><DD>Gets the Outgoing ArcInfo object using its arcKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getNextOutArcFrom</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getNextOutArcFrom</B>(java.lang.String&nbsp;arcKey)</PRE>
+<DL><DD>Gets the Outgoing ArcInfo object next to the arc with this arcKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getPrevOutArcFrom</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getPrevOutArcFrom</B>(java.lang.String&nbsp;arcKey)</PRE>
+<DL><DD>Gets the Outgoing ArcInfo object previous from the arc with this arcKey.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>removeSnNode</H3>
+<PRE>
+public void <B>removeSnNode</B>(java.lang.String&nbsp;nodeKey)</PRE>
+<DL><DD>Remove a node in the net.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>snUnmarkAllNodes</H3>
+<PRE>
+public void <B>snUnmarkAllNodes</B>(java.lang.String&nbsp;netKey)</PRE>
+<DL><DD>Sets the flags field to zero for all the nodes in the net.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>snMarkDeleteNode</H3>
+<PRE>
+public void <B>snMarkDeleteNode</B>(java.lang.String&nbsp;nodekey)</PRE>
+<DL><DD>Marks a node for deletion by setting its flags value to SN_FLAGS_MARK_DELETE.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>snDeleteMarkedNodes</H3>
+<PRE>
+public SnNetwork.SnNodeInfo <B>snDeleteMarkedNodes</B>(java.lang.String&nbsp;netKey)</PRE>
+<DL><DD>Deletes all of the marked nodes from the net Note that all arcs leading from the node are deleted, but arcs that point to the node have to be deleted separately. Also note that the basis tree structure is untouched and may be invalid after these deletions. If the node at the beginning of the net is marked for deletion, the routine returns the next available node in the list, or NULL, if there all nodes were deleted. If the first node is not deleted, then the routine returns a pointer to that node.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>snUnmarkAllArcs</H3>
+<PRE>
+public void <B>snUnmarkAllArcs</B>(java.lang.String&nbsp;netkey)</PRE>
+<DL><DD>Sets the flags field to zero for all of the arcs in the net<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>snMarkDeleteArc</H3>
+<PRE>
+public void <B>snMarkDeleteArc</B>(SnNetwork.SnArcInfo&nbsp;somearc)</PRE>
+<DL><DD>Marks an arc for deletion by setting its flags value to SN_FLAGS_MARK_DELETE<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>snDeleteMarkedArcs</H3>
+<PRE>
+public void <B>snDeleteMarkedArcs</B>(java.lang.String&nbsp;netKey)</PRE>
+<DL><DD>Deletes all arcs that have their flags field set to SN_FLAGS_MARK_DELETE. Each arc is removed from its net.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>snDeleteNetwork</H3>
+<PRE>
+public void <B>snDeleteNetwork</B>(java.lang.String&nbsp;netKey)</PRE>
+<HR>
+
+<H3>snFindRoot</H3>
+<PRE>
+public SnNetwork.SnNodeInfo <B>snFindRoot</B>(java.lang.String&nbsp;netKey)</PRE>
+<DL><DD>Checks to see that all of the nodes in the net are in the spanning tree specified by the fields pred and predlink. In addition, a consistency check is made to see that pred and predlink correspond correctly. The routine returns an error code, and possibly sets badNode to point to a node with a problem. Here are the possible returned values: SN_TREE_OK,SN_TREE_NO_ROOT, SN_TREE_MANY_ROOTS, SN_TREE_BAD_PRED, and SN_TREE_NO_TREE. The value of the corresponding badNode is null, null, pointer to one of the roots, pointer to node with bad predecessor node/link, and pointer to a node that is in a cycle,respecitively.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>snCalculateDuals</H3>
+<PRE>
+public double <B>snCalculateDuals</B>(java.lang.String&nbsp;netKey)</PRE>
+<DL><DD>Computes the dual values for the current basis tree. It checks to see that the tree has a root, and returns an error code if not. It is assumed that the thread is correct and traverses all of the nodes, ending at the root node. The possible return codes are: SN_DUALS_OK ( Everything OK, all duals calculated), and SN_DUALS_NO_ROOT(Root node could not be found).<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>snSetDownPtr</H3>
+<PRE>
+public void <B>snSetDownPtr</B>(java.lang.String&nbsp;netKey)</PRE>
+<DL><DD>Sets the field downptr for each of the nodes. It is assumed that the predecessor nodes and links correspond.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>snCalculateDepth</H3>
+<PRE>
+public void <B>snCalculateDepth</B>(java.lang.String&nbsp;netKey)</PRE>
+<HR>
+
+<H3>snBuildThread</H3>
+<PRE>
+public void <B>snBuildThread</B>(java.lang.String&nbsp;netKey)</PRE>
+<DL><DD>Builds the thread from a previously constructed predecessor node and predecessor link structure. It is assumed that the predecessor structure is correct and that there is exactly one root node. First, the root node is found and all threads are set to NULL. Then we start moving around the linked list of nodes at the node that follows the root node. For each node that does not have the thread already set, we move up the branch towards the root, setting the thread as we go up the tree. If we find a node with the thread already set, then we set the thread of the node we started at to point to the node which had the thread set.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>bigMStart</H3>
+<PRE>
+public SnNetwork.SnNodeInfo <B>bigMStart</B>(java.lang.String&nbsp;netkey,
+                                      int&nbsp;bigM)</PRE>
+<DL><DD>Sets up the bigM method. A new node is added to the linked list of nodes. This will precede the node nodes in the list. Links are created that connect each node in the network to the artificial node. These links have a cost of bigM. An initial feasible basis is created by moving all flow from supply nodes to demand nodes through the new node using the artificial links. The routine returns the address of the newly created node.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>snAlgorithm</H3>
+<PRE>
+public void <B>snAlgorithm</B>(java.lang.String&nbsp;netkey,
+                        int&nbsp;clistsize,
+                        int&nbsp;cyclelen)</PRE>
+<DL><DD>Network Simplex algorithm. Finds the minimum cost network flow.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>netkey</CODE> - name of the net you want to find minimum cost flow.</DD>
+<DD><CODE>clistsize</CODE> - length of the candidate list</DD>
+<DD><CODE>cyclelen</CODE> - length of the circle for pricing</DD>
+</DL>
+<HR>
+
+<H3>getPivots</H3>
+<PRE>
+public int <B>getPivots</B>()</PRE>
+<DL><DD>Gets the number of pivoting.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getDegen</H3>
+<PRE>
+public int <B>getDegen</B>()</PRE>
+<DL><DD>Gets the number of degenerate.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getObjfcn</H3>
+<PRE>
+public double <B>getObjfcn</B>()</PRE>
+<DL><DD>Gets the total cost of the network flow.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getBadNode</H3>
+<PRE>
+public SnNetwork.SnNodeInfo <B>getBadNode</B>()</PRE>
+<DL><DD>Gets the node with problem after check the tree.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+<H3>getBadArc</H3>
+<PRE>
+public SnNetwork.SnArcInfo <B>getBadArc</B>()</PRE>
+<DL><DD>Gets the arc with problem after check the flow.<DL><DD></DD></DL></DD>
+</DL>
+<DL></DL>
+<HR>
+
+</BODY>
+</HTML>
