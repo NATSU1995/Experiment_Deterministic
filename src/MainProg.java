@@ -1,12 +1,12 @@
 import MyNetwork.*;
 import ilog.concert.*;
-import ilog.cplex.*;
 import DataStructures.BinaryHeap;
 import java.util.Hashtable;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 import SnNetwork.*;
 import java.util.Vector;
+import ilog.cplex.IloCplex;
 /**
  * <p>Title: </p>
  * <p>Description: </p>
@@ -33,7 +33,7 @@ public class MainProg {
     double obj = 0;
     out.println();
     int ITE = 3, ITE2 = 50;
-    for (int n = 75; n <= 75; n++) {
+    for (int n = 1; n <= 30; n++) {
       Network myNetwork = new Network();
       String netFile = ".\\netInfo.txt";
       String nodeFile = ".\\data\\nodeFile_" + n + ".txt";
