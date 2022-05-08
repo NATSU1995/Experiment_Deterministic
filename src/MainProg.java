@@ -8,24 +8,6 @@ import SnNetwork.*;
 import java.util.Vector;
 import ilog.cplex.IloCplex;
 
-/**
- * <p>
- * Title:
- * </p>
- * <p>
- * Description:
- * </p>
- * <p>
- * Copyright: Copyright (c) 2006
- * </p>
- * <p>
- * Company:
- * </p>
- * 
- * @author not attributable
- * @version 1.0
- */
-
 public class MainProg {
 	double MaxNum = 1000;
 	boolean debug = false;
